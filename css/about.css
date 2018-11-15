@@ -1,0 +1,203 @@
+body{
+	background-color:White ;
+}
+a{
+	text-decoration: none;
+	font-family: Vladimir Script;
+	font-size: 25px;
+	font-style: bold;
+}
+.main {
+	text-align: center;
+}
+.button{
+	color: black;
+	padding: 10px 25px;
+
+}
+.button:hover{
+	background:	#d8b45c;
+	color: black;
+}
+#main-menu{
+	font-family: Broadway;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.showcase {
+	background-color: black;
+	background-image: url(../images/giphy.gif);
+	background-repeat: no repeat;
+	background-size: cover;
+	
+}
+
+.article h1{
+	color: #d8b45c;
+	font-family: Rosewood Std Regular;
+	font-size: 80px;
+	padding: 40px 25px;
+	
+}
+
+.article {
+	text-align: center;
+	font-size: 22px;
+	margin: 30px 30px 10px 10px;
+	padding: 50px;
+}
+.article p {
+	font-family:Segoe Script;
+	text-align: center;
+	font-size: 22px;
+	margin: 30px 30px 30px 30px;
+	padding: 40px;
+}
+
+.selection h2{
+	color: #D1A94A;
+	text-align: center;
+	font-family: Embassy BT;
+	font-size: 60px;
+	padding: 50px 5px;
+}
+
+.selection1 {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#one {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-family:  Birch Std;
+	font-size: 30px;
+	text-align: center;
+	color: #d8b45c;
+	padding: 20px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 0 0 10px silver;
+}
+#two{
+	grid-column: 2/4;
+	grid-row: 1/2/1/2;
+	font-family:  Birch Std;
+	font-size: 30px;
+	text-align: center;
+	color: #d8b45c;
+	padding: 20px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 0 0 10px silver;
+}
+#three{
+	grid-column: 4/5;
+	grid-row: 2/3;
+	font-family:  Birch Std;
+	font-size: 30px;
+	text-align: center;
+	color: #d8b45c;
+	padding: 20px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 0 0 10px silver;
+}
+#four{
+	grid-column: 2/4;
+	grid-row: 2/3;
+	font-family:  Birch Std;
+	font-size: 30px;
+	text-align: center;
+	color: #d8b45c;
+	padding: 20px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 0 0 10px silver;
+}
+.HOTEL {
+	font-family: Segoe Script;
+	font-style: italic;
+	color: #d8b45c;
+}
+.hotel1 {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#Thailand{
+	padding: 10px;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-family: Broadway;
+	
+}
+#Thailand:hover {
+	background-color: #d8b45c;
+}
+#Singapore{
+	padding: 10px;
+	text-align: center;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	font-family: Broadway;
+}
+#Singapore:hover{
+	background-color: #d8b45c;
+}
+#Manila{
+	padding: 10px;
+	display: grid;
+	grid-column: 4/6;
+	grid-row: 1/2;
+	font-family: Broadway;
+}
+#Manila:hover{
+	background-color: #d8b45c;
+}
+#Maldives{
+	padding: 10px;
+	display: grid;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	font-family: Broadway;
+}
+#Maldives:hover{
+	background-color: #d8b45c;
+}
+
+#Paris{
+	padding: 10px;
+	text-align: center;
+	display: grid;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	font-family: Broadway;	
+}
+#Paris:hover{
+	background-color: #d8b45c;
+}
+#Amsterdam{
+	padding: 10px;
+	display: grid;
+	grid-column: 4/5;
+	grid-row: 2/3;
+	font-family: Broadway;	
+}
+#Amsterdam:hover{
+	background-color: #d8b45c;
+}
+.foot {
+	font-family: Embassy BT;
+	font-size: 40px;
+	text-align: center;
+	color: #d8b45c;
+	margin-top: 20px;
+}
+.footer {
+	text-align: center;
+	padding: 2px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #d8b45c;
+	
+}

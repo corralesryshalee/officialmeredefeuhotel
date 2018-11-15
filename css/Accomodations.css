@@ -1,0 +1,140 @@
+body {  
+    background-color: white; 
+} 
+a{ 
+	text-decoration: none;
+	font-family: Vladimir Script;
+	font-size: 25px;
+	font-style: bold;
+}
+.logo {
+	text-align: center;
+}
+.button {
+	color: black;
+	padding: 10px 25px;
+
+}
+
+.button:hover {
+	background: #d8b45c;
+	color:black;
+}
+
+#main-menu {
+	margin: 5px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.one {
+	grid-column: 1/5;
+	grid-row: 1/2; 
+	border: solid #d8b45c;
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script; 
+    font-size: 30px; 
+}    
+.one:hover {  
+    background-color: #d8b45c; 
+	color:  black;  
+}
+.one h3{
+	font-size: 60px;
+	font-family: Vladimir Script;
+	
+}
+
+#Superior {  
+    grid-column: 1/5;
+	grid-row: 2/3;
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script;   
+	font-size: 30px;
+}   
+.two {  
+    grid-column: 1/5;
+	grid-row: 1/2; 
+	border: solid #d8b45c;
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script; 
+    font-size: 30px;  
+}  
+.two:hover {  
+    background-color: #d8b45c; 
+	color:  black;  
+} 
+.two h3{
+	font-size: 60px;
+	font-family: Vladimir Script;
+	
+}
+#Deluxe {   
+	grid-column: 1/5;
+	grid-row: 3/4;
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script;  
+}  
+.three {   
+	grid-column: 1/5;
+	grid-row: 3/4; 
+	border: solid #d8b45c;
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script;   
+	font-size: 30px;
+}   
+.three:hover {  
+    background-color: #d8b45c; 
+	color: black;  
+} 
+#Single {   
+	grid-column: 1/5;
+	grid-row: 3/4; 
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script;  
+}   
+.three h3{
+	font-size: 60px;
+	font-family: Vladimir Script;
+	
+}
+.four {  
+	grid-column: 1/5;
+	grid-row: 3/4; 
+	border: solid #d8b45c;
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script; 
+	font-size: 30px;
+}  
+.four:hover {  
+    background-color: #d8b45c; 
+	color:  black;  
+} 
+.four h3{
+	font-size: 60px;
+	font-family: Vladimir Script;
+	
+}
+#Family {   
+	grid-column: 1/5;
+	grid-row: 3/4
+    margin: 20px;  
+    text-align: center; 
+    font-family: Vladimir Script;   
+} 	
+ .footer {    
+    text-align: center; 
+    margin-top: 15px; 
+	margin-bottom: 20px;
+	padding: 5px; 
+	color: #d8b45c; 
+} 

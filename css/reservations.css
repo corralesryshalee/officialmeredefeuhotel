@@ -1,0 +1,144 @@
+body {
+	background-image: url(../images/44835448_548609528912697_1406790768001024000_n.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #d8b45c;
+	font-family: vladimir script;
+}
+a {
+	text-decoration: none;
+	font-family: vladimir script;
+	font-size: 25px;
+}
+.button {
+	background: white;
+	color: black;
+	padding: 10px 25px;
+}
+
+.button:hover {
+	background: #d8b45c;
+	color: black;
+}
+
+.main-article{
+	width: 320px;
+	height: 420px;
+	position: center;
+	text-align: center;
+}
+
+#loginbox{
+	width: 320px;
+	height: 420px;
+	background: transparent;
+	color: white;
+	background: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50% );
+	box-sizing: border-box;
+	
+}
+
+
+#main-menu {
+	margin: 5px;
+	padding: 0; 
+	font-size: 25px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+loginbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	font-family: vladimir script;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 25px;
+	font-family: vladimir script;
+}
+.login input[type="submit"]:hover
+{
+	font-family: vladimir script;
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 20px;
+	color: white;
+	font-style: vladimir script;
+}
+
+.loginbox a:hover{
+	color: gold;
+}
+
+.wrapper{
+	font-family:vladimir script;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+img{
+	opacity:1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: 5s ease;
+
+}
+
+.content{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-transform:
+}
+
+	
+.footer2{
+	font-family: vladimir script;
+	text-align: center;
+	background: white;
+	font-size: 15px;
+	margin-top: 5px;
+	padding: 2px;
+	color: black;
+}

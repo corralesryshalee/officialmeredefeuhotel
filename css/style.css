@@ -1,0 +1,89 @@
+body {
+	background-color: white;
+}
+a {
+	text-decoration: none;
+}
+
+.homelogo {
+	text-align: center;
+}
+.button {
+	text-align: center;
+	color: black;
+	padding: 10px 25px;
+	
+}
+
+.button:hover {
+	background: #d8b45c;
+	color: black;
+}
+
+#home {
+	margin: 5px;
+	padding: 10px;
+	font-family: Vladimir Script;
+	font-size: 25px;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.showcase {
+	margin: 0px;
+	padding: 0px px 0px 0px;
+}
+
+.welcome {
+	margin: 0px;
+	padding: 0px;
+}
+
+.welcome h1 {
+	font-size: 35px;
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	font-size: 40px;
+}
+
+.welcome p {
+	text-align: center;
+	font-family: Papyrus;
+	font-size: 30px;
+}
+
+.pictures {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#one {
+	margin: 20px;
+	padding: 10px;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#two {
+	margin: 20px;
+	padding: 10px;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#three {
+	margin: 20px;
+	padding: 10px;
+	grid-column: 3/4;
+	grid-row: 1/2;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer {
+	text-align: center;
+	padding: 2px;
+	color: #d8b45c;
+}
